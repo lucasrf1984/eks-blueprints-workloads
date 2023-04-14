@@ -1,5 +1,5 @@
 {{ if .Values.spec.karpenterInstanceProfile }}
-apiVersion: karpenter.k8s.aws/v1alpha1
+apiVersion: karpenter.k8s.aws/v1alpha2
 kind: AWSNodeTemplate
 metadata:
   name: karpenter-default
